@@ -1,0 +1,240 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    background-image: url(summydev.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 15.4% 20px;
+   
+}
+
+h1 {
+    color: gold;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+body {
+    padding-top: 50px;
+    
+}
+
+.herobannertext {
+    max-width: 40%;
+    margin: 2px 10%;
+    background-color: brown;
+    padding: 40px;
+    text-align: center;
+    border-radius: 40px;
+    opacity: 0.96;
+    color: white;
+}
+
+.menubutton1 , .menubutton2 , .menubutton3{
+width: 35px;
+height: 5px;
+background-color: black;
+margin: 6px 0;
+transition: 0.4s;
+}
+.change .menubutton1{
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+  
+}
+.change .menubutton2{
+   opacity: 0;
+}
+.change .menubutton3{
+    -webkit-transform: rotate(45deg) translate(-8px,-8px);
+    transform: rotate(45deg) translate(-8px,-8px);
+   
+
+}
+
+.herobannertext p {
+    font-size: 17px;
+    font-family: sans-serif;
+}
+
+button.firstbutton {
+    padding: 8px 11px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin: 5px;
+    outline: none;
+    background-image: linear-gradient(45deg, gold, brown);
+
+}
+
+button.secondbutton {
+    padding: 8px 11px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin: 5px;
+    outline: none;
+    background-image: linear-gradient(45deg, gold, brown);
+
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: 700px;
+}
+
+button {
+    background-color: gold;
+    outline: none;
+    font-weight: 800px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 200px;
+    background-color:  brown;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+header nav{
+    float: right;
+}
+header nav.active{
+    left: 0;
+}
+header nav ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+header nav ul li{
+    list-style: none;
+}
+header nav ul li a{
+   height: 50px;
+   line-height: 50px;
+   padding: 0 20px;
+   color: #ffffff;
+   text-decoration: none;
+}
+header nav ul li a:hover{
+    color: gold;
+}
+.menu{
+    color: #ffffff;
+    float: right;
+    line-height: 50px;
+    font-size: 24px;
+    cursor: pointer;
+    display: none;
+}
+
+
+@media screen and (max-width: 1024px) {
+    section {
+        background-image: url(summydev.png);
+        background-position: center right;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 56.4% 4px;
+    }
+
+    .herobannertext {
+        max-width: 45%;
+        margin: 2px 5%;
+        background-color: brown;
+        padding: 76px 90px;
+        text-align: center;
+        border-radius: 40px;
+        opacity: 0.9;
+    }
+
+    h1 {
+        font-size: 37px;
+        margin-top: 0;
+        color: gold;
+    }
+
+    .herobannertext p {
+        font-size: 20px;
+        color: white;
+        font-family: sans-serif;
+    }
+
+    p {
+        font-size: 12px
+    }
+
+    h1 {
+        font-size: 17px;
+        color: gold;
+    }
+
+    button.firstbutton {
+        padding: 8px 11px;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        margin: 2px;
+        outline: none;
+        font-size: 10px
+    }
+
+    button.secondbutton {
+        padding: 8px 13px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        margin: 2px;
+        outline: none;
+        font-size: 10px
+    }
+    header{
+        padding: 15px 20px;
+    }
+   
+    .menu{
+        display: block;
+    }
+    header nav{
+       display:  none  ;
+        position: absolute;
+        width: 100%;
+        height: calc(100vh - 50px);
+        background: brown;
+        opacity: 0.8;
+        top: 50px;
+        left: -100%;
+        padding-top: 20px;
+        transition: all 0.3s ease-in-out;
+    }
+    header nav ul{
+        display: block;
+        text-align: center;
+        transition: all 0.5s ease-in-out;
+    }
+    header nav ul li{
+        border-bottom: 3px solid #460000;
+        padding: 12px;
+        transition: all 0.3s ease-in-out;
+    }
+    header nav ul li a{
+        font-size: 30px;
+        height: 50px;
+        line-height: 50px;
+        padding: 0 20px;
+        color: #ffffff;
+        text-decoration: none;
+        transition: all 0.5s ease-in-out;
+     }
+     
+}

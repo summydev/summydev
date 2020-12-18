@@ -1,0 +1,145 @@
+body {
+
+    text-align: center;
+    background-color: #770b0b;
+}
+h2 {
+    font-size: 35px;
+    margin: 10px;
+    color: gold;
+    font-weight: bolder;
+    padding-top: 15px;
+}
+.call, .mail, .twitter{
+    padding: 25px;
+}
+body p{
+    color: white;
+    font-size: 15px;
+}
+body a{
+    color: white;
+    text-decoration-color: gold;
+}
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 200px;
+    background-color:  brown;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+header nav{
+    float: right;
+}
+header nav.active{
+    left: 0;
+}
+header nav ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+header nav ul li{
+    list-style: none;
+}
+header nav ul li a{
+   height: 50px;
+   line-height: 50px;
+   padding: 0 20px;
+   color: #ffffff;
+   text-decoration: none;
+}
+header nav ul li a:hover{
+    color: gold;
+}
+.menu{
+    color: #ffffff;
+    float: right;
+    line-height: 50px;
+    font-size: 24px;
+    cursor: pointer;
+    display: none;
+}
+.menubutton1 , .menubutton2 , .menubutton3{
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+    transition: 0.4s;
+    }
+    
+.change .menubutton1{
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+  
+}
+.change .menubutton2{
+   opacity: 0;
+}
+.change .menubutton3{
+    -webkit-transform: rotate(45deg) translate(-8px,-8px);
+    transform: rotate(45deg) translate(-8px,-8px);
+   
+
+}
+#summydev a{
+    text-decoration: none;
+    font-size: 30px;
+    padding: 0;
+    margin: 0;
+}
+
+@media screen and (max-width: 1024px){
+    header{
+        padding: 15px 20px;
+    }
+    .menu {
+        color: #ffffff;
+        float: right;
+        line-height: 50px;
+        font-size: 24px;
+        cursor: pointer;
+        
+    }
+    .menu{
+        display: block;
+    }
+    header nav{
+       display: none ;
+        position: absolute;
+        width: 100%;
+        height: calc(100vh - 50px);
+        background: brown;
+        opacity: 0.8;
+        top: 50px;
+        left: -100%;
+        padding-top: 20px;
+        transition: all 0.3s ease-in-out;
+    }
+    header nav ul{
+        display: block;
+        text-align: center;
+        transition: all 0.5s ease-in-out;
+    }
+    header nav ul li{
+        border-bottom: 3px solid #460000;
+        padding: 12px;
+        transition: all 0.3s ease-in-out;
+    }
+    header nav ul li a{
+        font-size: 30px;
+        height: 50px;
+        line-height: 50px;
+        padding: 0 20px;
+        color: #ffffff;
+        text-decoration: none;
+        transition: all 0.5s ease-in-out;
+     } 
+}
+
+
+
