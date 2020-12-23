@@ -85,6 +85,7 @@ a {
     text-decoration: none;
     color: whitesmoke;
     font-weight: 700px;
+    font-size: 13px;
 }
 
 button {
@@ -120,6 +121,7 @@ header nav ul{
 }
 header nav ul li{
     list-style: none;
+    background-color: brown;
 }
 header nav ul li a{
    height: 50px;
@@ -139,7 +141,12 @@ header nav ul li a:hover{
     cursor: pointer;
     display: none;
 }
-
+.shownav{
+    display: block;
+   background: brown;
+   transition: all 0.5s ease-in-out;
+   margin-bottom: 2%
+}
 
 @media screen and (max-width: 1024px) {
     section {
@@ -147,21 +154,21 @@ header nav ul li a:hover{
         background-position: center right;
         background-repeat: no-repeat;
         background-size: cover;
-        padding: 56.4% 4px;
+        padding: 30.4% 4px;
     }
 
     .herobannertext {
         max-width: 45%;
         margin: 2px 5%;
         background-color: brown;
-        padding: 76px 90px;
+        padding: 75px 45px;
         text-align: center;
         border-radius: 40px;
         opacity: 0.9;
     }
 
     h1 {
-        font-size: 37px;
+        font-size: 33px;
         margin-top: 0;
         color: gold;
     }
@@ -175,12 +182,6 @@ header nav ul li a:hover{
     p {
         font-size: 12px
     }
-
-    h1 {
-        font-size: 17px;
-        color: gold;
-    }
-
     button.firstbutton {
         padding: 8px 11px;
         border-top-left-radius: 20px;
@@ -206,12 +207,11 @@ header nav ul li a:hover{
         display: block;
     }
     header nav{
-       display:  none  ;
+       display: none ;
         position: absolute;
         width: 100%;
-        height: calc(100vh - 50px);
+        height: calc(50vh - 30px);
         background: brown;
-        opacity: 0.8;
         top: 50px;
         left: -100%;
         padding-top: 20px;
@@ -224,13 +224,13 @@ header nav ul li a:hover{
     }
     header nav ul li{
         border-bottom: 3px solid #460000;
-        padding: 12px;
+        
         transition: all 0.3s ease-in-out;
     }
     header nav ul li a{
-        font-size: 30px;
-        height: 50px;
-        line-height: 50px;
+        font-size: 15px;
+        height: 30px;
+        line-height: 30px;
         padding: 0 20px;
         color: #ffffff;
         text-decoration: none;

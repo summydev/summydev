@@ -1,7 +1,7 @@
 body {
 
     text-align: center;
-    background-color: #770b0b;
+    background-color:brown;
 }
 h2 {
     font-size: 35px;
@@ -15,7 +15,7 @@ h2 {
 }
 body p{
     color: white;
-    font-size: 15px;
+    font-size: 17px;
 }
 body a{
     color: white;
@@ -30,6 +30,17 @@ header{
     background-color:  brown;
     width: 100%;
     box-sizing: border-box;
+}
+.shownav{
+    display: block;
+   background: brown;
+   transition: all 0.5s ease-in-out;
+}
+.container {
+    padding: 100px 0;
+}
+img {
+    vertical-align: middle;
 }
 
 header nav{
@@ -112,9 +123,9 @@ header nav ul li a:hover{
        display: none ;
         position: absolute;
         width: 100%;
-        height: calc(100vh - 50px);
+        height: calc(50vh - 25px);
         background: brown;
-        opacity: 0.8;
+      
         top: 50px;
         left: -100%;
         padding-top: 20px;
@@ -127,13 +138,13 @@ header nav ul li a:hover{
     }
     header nav ul li{
         border-bottom: 3px solid #460000;
-        padding: 12px;
+       background-color: brown;
         transition: all 0.3s ease-in-out;
     }
     header nav ul li a{
-        font-size: 30px;
-        height: 50px;
-        line-height: 50px;
+        font-size: 15px;
+        height: 30px;
+        line-height: 30px;
         padding: 0 20px;
         color: #ffffff;
         text-decoration: none;
