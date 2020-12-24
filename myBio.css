@@ -158,10 +158,10 @@ header nav ul li a:hover{
     }
 
     .herobannertext {
-        max-width: 45%;
+        max-width: 55%;
         margin: 2px 5%;
         background-color: brown;
-        padding: 75px 45px;
+        padding: 50px 45px;
         text-align: center;
         border-radius: 40px;
         opacity: 0.9;
@@ -171,6 +171,7 @@ header nav ul li a:hover{
         font-size: 33px;
         margin-top: 0;
         color: gold;
+        margin: 0;
     }
 
     .herobannertext p {
