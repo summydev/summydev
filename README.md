@@ -1,4 +1,4 @@
-[![MasterHead](https://1.bp.blogspot.com/-7A4WynwLsMw/XbBpCXG8fHI/AAAAAAAAMt4/uOa1bpLskYgrwGbllhSu2SDj_Mig8SXJQCLcBGAsYHQ/s1600/2000_600px.gif)](https://rishavchanda.io)
+[![MasterHead](https://us.v-cdn.net/6032561/uploads/01SEX4T5P2O1/welcome.gif)](https://rishavchanda.io)
 <h1 align="center">Hi 👋, I'm Sumayah Adegbite</h1>
 <h3 align="center">I am a Mobile and Web Developer interested in using AI/ML to solve major science problems.</h3>
 <img align="right" alt=""coding" width ="500" src="https://us.v-cdn.net/6032561/uploads/01SEX4T5P2O1/welcome.gif">
