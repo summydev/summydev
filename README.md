@@ -22,7 +22,7 @@
 <a href="https://linkedin.com/in/sumayah-adegbite-32894a202" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="sumayah-adegbite-32894a202" height="30" width="40" /></a>
 <a href="https://fb.com/summayah.adegbite.92/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="summayah.adegbite.92/" height="30" width="40" /></a>
 <a href="https://instagram.com/summydevv" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="summydevv" height="30" width="40" /></a>
-<a href="https://medium.com/@adegbitesumayah" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/medium.svg" alt="@adegbitesumayah" height="30" width="40" /></a>
+<a href="https://medium.com/@summydev" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/medium.svg" alt="@adegbitesumayah" height="30" width="40" /></a>
 <a href="https://www.youtube.com/c/summydev" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="summydev" height="30" width="40" /></a>
 </p> 
 
