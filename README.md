@@ -8,9 +8,9 @@
 
 - 🔭 I’m currently working on **AfriFotos**
 
-- 🌱 I’m currently learning **React**
+- 🌱 I’m currently learning **Python**
 
-- 👨‍💻 All of my projects are available at [github.com/summydev](github.com/summydev)
+- 👨‍💻 All of my projects are available at [github.com/summydev](github.com/summydev) and [github.com/summydeveloper](github.com/summydeveloper)
 
 - 💬 Ask me anything about **coding with Flutter/Dart**
 
