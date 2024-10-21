@@ -6,9 +6,9 @@
 
 <p align="left"> <a href="https://twitter.com/summydev" target="blank"><img src="https://img.shields.io/twitter/follow/summydev?logo=twitter&style=for-the-badge" alt="summydev" /></a> </p>
 
-- 🔭 I’m currently working on **AfriFotos**
+- 🔭 I’m currently working on building a product to help students more productive.
 
-- 🌱 I’m currently learning **Python**
+- 🌱 I’m currently learning **Python, Java, C++**
 
 - 👨‍💻 All of my projects are available at [github.com/summydev](github.com/summydev) and [github.com/summydeveloper](github.com/summydeveloper)
 
@@ -19,7 +19,7 @@
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://twitter.com/summydev" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="summydev" height="30" width="40" /></a>
-<a href="https://linkedin.com/in/sumayah-adegbite-32894a202" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="sumayah-adegbite-32894a202" height="30" width="40" /></a>
+<a href="https://linkedin.com/in/sumayahadegbite" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="sumayah-adegbite-32894a202" height="30" width="40" /></a>
 <a href="https://fb.com/summayah.adegbite.92/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="summayah.adegbite.92/" height="30" width="40" /></a>
 <a href="https://instagram.com/summydevv" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="summydevv" height="30" width="40" /></a>
 <a href="https://medium.com/@summydev" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/medium.svg" alt="@adegbitesumayah" height="30" width="40" /></a>
