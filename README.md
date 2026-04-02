@@ -1,7 +1,7 @@
 [![MasterHead](https://1.bp.blogspot.com/-7A4WynwLsMw/XbBpCXG8fHI/AAAAAAAAMt4/uOa1bpLskYgrwGbllhSu2SDj_Mig8SXJQCLcBGAsYHQ/s1600/2000_600px.gif)](https://rishavchanda.io)
 <h1 align="center">Hi 👋, I'm Sumayah Adegbite aka "summydev"</h1>
 
-<h3 align="center">Welcome to my Github Profile.I am a sophomore at the University of Lagos majoring in Mathematics. I am a Mobile and Web Developer passionate about using AI/ML to solve major science problems.</h3>
+<h3 align="center">Welcome to my Github Profile.I am a Junior at the University of Lagos majoring in Mathematics. I am a Mobile and Web Developer passionate about using AI/ML to solve major science problems.</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=summydev&label=Profile%20views&color=0e75b6&style=flat" alt="summydev" /> </p>
 
