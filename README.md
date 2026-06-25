@@ -1,38 +1,40 @@
 [![MasterHead](https://1.bp.blogspot.com/-7A4WynwLsMw/XbBpCXG8fHI/AAAAAAAAMt4/uOa1bpLskYgrwGbllhSu2SDj_Mig8SXJQCLcBGAsYHQ/s1600/2000_600px.gif)](https://rishavchanda.io)
 <h1 align="center">Hi 👋, I'm Sumayah Adegbite aka "summydev"</h1>
 
-<h3 align="center">Welcome to my Github Profile.I am a Junior at the University of Lagos majoring in Mathematics. I am a Mobile and Web Developer passionate about using AI/ML to solve major science problems.</h3>
+<h3 align="center">Welcome to my GitHub Profile. I am an AI/ML Engineer & Mobile Developer passionate about building smart systems. I am currently a Junior at the University of Lagos.</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=summydev&label=Profile%20views&color=0e75b6&style=flat" alt="summydev" /> </p>
 
 <p align="left"> <a href="https://twitter.com/summydev" target="blank"><img src="https://img.shields.io/twitter/follow/summydev?logo=twitter&style=for-the-badge" alt="summydev" /></a> </p>
 
-- 📱I build Mobile Apps
-
-- 🔭 I’m currently working on building a product to help students more productive.
-
-- 🌱 I’m currently learning **Python, Java, C++**
-  
-- 🛠️I've also been working on building AI tools and integrating with what I build.
-
-- 👨‍💻 All of my projects are available at [github.com/summydev](github.com/summydev) and [github.com/summydeveloper](github.com/summydeveloper)
-
-- 💬 Ask me anything about **coding with Flutter/Dart**
-
-- 📫 How to reach me **summydeveloper@gmail.com**
+- 🔭 **I’m currently working on:** Building AI-powered backends and smart tools like **Padii** (a voice-first AI assistant),**Thirds**. and **RecFoodAI**  
+- 💼 **Experience:** Currently building my skills as an AI Engineering Fellow at **Cowrywise** + **AI Saturday Lagos Cohort 10 x Google Deepmind**. 
+- 🌱 **I’m currently deepening my knowledge in:** Advanced LLM integrations, Python, and FastAPI.
+- 💬 **Ask me about:** Python, Machine Learning, Flutter/Dart, and building AI tools from backend to mobile frontend.
+- 👨‍💻 **Projects:** All of my projects are available at [github.com/summydev](https://github.com/summydev) and [github.com/summydeveloper](https://github.com/summydeveloper)
+- 📫 **How to reach me:** **summydeveloper@gmail.com**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://twitter.com/summydev" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="summydev" height="30" width="40" /></a>
-<a href="https://linkedin.com/in/sumayahadegbite" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="sumayah-adegbite-32894a202" height="30" width="40" /></a>
-<a href="https://fb.com/summayah.adegbite.92/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="summayah.adegbite.92/" height="30" width="40" /></a>
+<a href="https://linkedin.com/in/sumayahadegbite" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="sumayah-adegbite" height="30" width="40" /></a>
 <a href="https://instagram.com/summydevv" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="summydevv" height="30" width="40" /></a>
-<a href="https://medium.com/@summydev" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/medium.svg" alt="@adegbitesumayah" height="30" width="40" /></a>
+<a href="https://medium.com/@summydev" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/medium.svg" alt="@summydev" height="30" width="40" /></a>
 <a href="https://www.youtube.com/c/summydev" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="summydev" height="30" width="40" /></a>
 </p> 
 
 <h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://dart.dev" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/dartlang/dartlang-icon.svg" alt="dart" width="40" height="40"/> </a> <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a> <a href="https://flutter.dev" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" alt="flutter" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.adobe.com/in/products/illustrator.html" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/adobe_illustrator/adobe_illustrator-icon.svg" alt="illustrator" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> </p>
+<p align="left"> 
+  <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> 
+  <a href="https://fastapi.tiangolo.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/fastapi/fastapi-original.svg" alt="fastapi" width="40" height="40"/> </a>
+  <a href="https://flutter.dev" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" alt="flutter" width="40" height="40"/> </a> 
+  <a href="https://dart.dev" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/dartlang/dartlang-icon.svg" alt="dart" width="40" height="40"/> </a> 
+  <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a> 
+  <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> 
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> 
+  <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> 
+  <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> 
+</p>
 
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=summydev&show_icons=true&locale=en&layout=compact" alt="summydev" /></p>
 
