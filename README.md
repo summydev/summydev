@@ -7,7 +7,7 @@
 
 <p align="left"> <a href="https://twitter.com/summydev" target="blank"><img src="https://img.shields.io/twitter/follow/summydev?logo=twitter&style=for-the-badge" alt="summydev" /></a> </p>
 
-- 🔭 **I’m currently working on:** Building AI-powered backends and smart tools like {**Dropeet**}(https://dropeet.app),**Thirds**. and **RecFoodAI**  
+- 🔭 **I’m currently working on:** Building AI-powered backends and smart tools like [**Dropeet**](https://dropeet.app) ,**Thirds**. and **RecFoodAI**  
 - 💼 **Experience:** Currently building my skills as an AI Engineering Fellow at **Cowrywise** + **AI Saturday Lagos Cohort 10 x Google Deepmind**. 
 - 🌱 **I’m currently deepening my knowledge in:** Advanced LLM integrations, Python, and FastAPI.
 - 💬 **Ask me about:** Python, Machine Learning, Flutter/Dart, and building AI tools from backend to mobile frontend.
