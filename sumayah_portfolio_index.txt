@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0b0b0f">
+  <meta name="description" content="Sumayah Adegbite — Mathematics student at UNILAG, AI engineer, researcher, and software developer.">
+  <title>Sumayah Adegbite | AI, Mathematics & Software</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --bg: #0b0b0f;
+      --surface: #121219;
+      --surface-2: #191921;
+      --text: #f2f0f7;
+      --muted: #a09eae;
+      --accent: #c5f467;
+      --purple: #b9a2ff;
+      --border: rgba(255,255,255,.10);
+      --radius: 20px;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; scroll-padding-top: 90px; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'DM Sans', sans-serif;
+      line-height: 1.7;
+      overflow-x: hidden;
+    }
+    a { color: inherit; text-decoration: none; }
+    button { font: inherit; }
+    ::selection { background: var(--accent); color: var(--bg); }
+    .container { width: min(1080px, 90%); margin: auto; }
+    .mono { font-family: 'DM Mono', monospace; font-size: .75rem; letter-spacing: .04em; }
+    .muted { color: var(--muted); }
+    .accent { color: var(--accent); }
+
+    header {
+      position: sticky; top: 0; z-index: 20;
+      background: rgba(11,11,15,.88);
+      backdrop-filter: blur(18px);
+      border-bottom: 1px solid var(--border);
+    }
+    nav { min-height: 70px; display: flex; justify-content: space-between; align-items: center; gap: 18px; }
+    .brand { font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 1.05rem; white-space: nowrap; }
+    .brand span { color: var(--accent); }
+    .nav-links { display: flex; gap: 24px; align-items: center; font-size: .84rem; color: var(--muted); }
+    .nav-links a:hover { color: var(--accent); }
+    .nav-contact { border: 1px solid var(--border); padding: 8px 14px; border-radius: 100px; color: var(--text) !important; }
+
+    .hero {
+      min-height: 590px; padding: 94px 0 82px;
+      display: grid; grid-template-columns: 1.4fr .8fr;
+      align-items: center; gap: 65px; position: relative;
+    }
+    .eyebrow { display: inline-flex; align-items: center; gap: 10px; color: var(--accent); margin-bottom: 25px; }
+    .dot { width: 8px; height: 8px; background: var(--accent); border-radius: 50%; box-shadow: 0 0 15px rgba(197,244,103,.6); }
+    h1, h2, h3 { font-family: 'Space Grotesk', sans-serif; line-height: 1.15; letter-spacing: -.045em; }
+    h1 { font-size: clamp(3rem, 7.5vw, 5.6rem); font-weight: 600; margin-bottom: 22px; }
+    h1 .hello { color: var(--accent); }
+    .hero-description { max-width: 530px; color: var(--muted); font-size: 1.04rem; line-height: 1.9; }
+    .hero-description strong { color: var(--text); font-weight: 500; }
+    .hero-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 32px; }
+    .btn { padding: 12px 19px; display: inline-flex; justify-content: center; align-items: center; gap: 10px; border-radius: 9px; font-size: .88rem; font-weight: 600; transition: transform .2s, background .2s; }
+    .btn:hover { transform: translateY(-3px); }
+    .btn-primary { background: var(--accent); color: #11140b; }
+    .btn-secondary { border: 1px solid var(--border); background: var(--surface); }
+    .profile-wrap { position: relative; max-width: 320px; margin: auto; }
+    .profile-frame { position: relative; padding: 10px; border: 1px solid rgba(197,244,103,.3); border-radius: 170px 170px 28px 28px; background: linear-gradient(150deg, #25252d, #121219); }
+    .profile-frame img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; display: block; border-radius: 160px 160px 20px 20px; background: var(--surface-2); }
+    .profile-label { position: absolute; right: -20px; bottom: 35px; padding: 13px 17px; border: 1px solid var(--border); border-radius: 12px; background: #191921; box-shadow: 0 12px 35px #0006; }
+    .profile-label strong { display: block; font-size: .85rem; }
+    .profile-label span { color: var(--muted); font-size: .72rem; }
+    .orbit { position: absolute; z-index: -1; width: 320px; height: 320px; border: 1px solid rgba(185,162,255,.13); border-radius: 50%; top: 0; left: -30px; }
+    .orbit::after { content: ''; position: absolute; top: 40px; right: 15px; width: 8px; height: 8px; border-radius: 50%; background: var(--purple); }
+
+    .info-strip { display: flex; flex-wrap: wrap; gap: 12px; padding: 20px 0 25px; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); }
+    .info-chip { padding: 8px 13px; border: 1px solid var(--border); border-radius: 100px; color: var(--muted); font-size: .79rem; }
+    .info-chip span { color: var(--accent); margin-right: 6px; }
+
+    section { padding: 92px 0; }
+    .section-kicker { color: var(--accent); margin-bottom: 13px; }
+    .section-title { font-size: clamp(2rem, 5vw, 3.1rem); margin-bottom: 16px; }
+    .section-description { max-width: 610px; color: var(--muted); margin-bottom: 36px; }
+    .projects-section { background: #0e0e13; }
+    .project-top { display: flex; justify-content: space-between; align-items: end; gap: 24px; flex-wrap: wrap; margin-bottom: 27px; }
+    .project-top .section-description { margin-bottom: 0; }
+    .tabs { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 30px; }
+    .tab { cursor: pointer; border: 1px solid var(--border); color: var(--muted); background: var(--surface); padding: 10px 15px; border-radius: 100px; font-size: .82rem; transition: all .2s; }
+    .tab:hover, .tab.active { background: var(--accent); border-color: var(--accent); color: #10120c; }
+    .project-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
+    .project-card { display: flex; flex-direction: column; min-width: 0; padding: 25px; border: 1px solid var(--border); border-radius: var(--radius); background: var(--surface); transition: transform .25s, border-color .25s; animation: appear .3s ease both; }
+    .project-card[hidden] { display: none; }
+    .project-card:hover { transform: translateY(-5px); border-color: rgba(197,244,103,.4); }
+    .project-meta { display: flex; justify-content: space-between; align-items: center; gap: 12px; margin-bottom: 24px; }
+    .project-number { color: var(--muted); }
+    .project-type { font-size: .7rem; color: var(--accent); border: 1px solid rgba(197,244,103,.25); padding: 4px 9px; border-radius: 100px; }
+    .project-icon { width: 45px; height: 45px; border-radius: 12px; display: grid; place-items: center; background: var(--surface-2); font-size: 1.35rem; margin-bottom: 18px; }
+    .project-card h3 { font-size: 1.3rem; margin-bottom: 10px; }
+    .project-card p { color: var(--muted); font-size: .9rem; line-height: 1.8; margin-bottom: 20px; }
+    .tags { display: flex; flex-wrap: wrap; gap: 7px; margin-top: auto; }
+    .tag { padding: 5px 9px; background: var(--surface-2); border-radius: 6px; color: #c6c3d1; font-family: 'DM Mono', monospace; font-size: .68rem; }
+    .project-link { display: inline-flex; align-items: center; gap: 7px; color: var(--accent); font-size: .84rem; margin-top: 20px; width: fit-content; }
+    .project-link:hover { text-decoration: underline; }
+    .empty-state { color: var(--muted); padding: 30px 0; grid-column: 1 / -1; }
+
+    .about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 50px; align-items: start; }
+    .about-copy p { color: var(--muted); margin-bottom: 18px; }
+    .about-copy strong { color: var(--text); font-weight: 600; }
+    .focus-card { border: 1px solid var(--border); border-radius: var(--radius); padding: 27px; background: var(--surface); }
+    .focus-card h3 { font-size: 1.25rem; margin-bottom: 20px; }
+    .focus-item { padding: 15px 0; border-bottom: 1px solid var(--border); display: flex; align-items: flex-start; gap: 13px; }
+    .focus-item:last-child { border-bottom: 0; padding-bottom: 0; }
+    .focus-symbol { color: var(--accent); font-size: 1rem; }
+    .focus-item strong { display: block; font-size: .9rem; }
+    .focus-item span:last-child { display: block; color: var(--muted); font-size: .8rem; }
+
+    .contact-box { background: var(--surface); border: 1px solid var(--border); border-radius: 25px; padding: clamp(28px, 6vw, 60px); position: relative; overflow: hidden; }
+    .contact-box::after { content: ''; position: absolute; width: 200px; height: 200px; background: var(--accent); opacity: .06; filter: blur(70px); right: -50px; top: -60px; pointer-events: none; }
+    .contact-box h2 { font-size: clamp(2.3rem, 6vw, 4rem); max-width: 650px; margin-bottom: 17px; }
+    .contact-box > p { color: var(--muted); max-width: 530px; }
+    .social-links { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 30px; }
+    .social-link { border: 1px solid var(--border); padding: 10px 15px; border-radius: 9px; font-size: .84rem; transition: border-color .2s, color .2s; }
+    .social-link:hover { border-color: var(--accent); color: var(--accent); }
+    footer { border-top: 1px solid var(--border); padding: 25px 0; color: var(--muted); font-size: .78rem; }
+    .footer-inner { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 12px; }
+
+    @keyframes appear { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+
+    @media (max-width: 760px) {
+      .nav-links { gap: 14px; font-size: .78rem; }
+      .nav-links a:not(.nav-contact) { display: none; }
+      .hero { grid-template-columns: 1fr; padding-top: 65px; gap: 55px; min-height: auto; }
+      .hero-copy { order: 1; }
+      .profile-wrap { order: 2; width: 65%; max-width: 260px; }
+      .orbit { width: 260px; height: 260px; }
+      .profile-label { right: -25px; }
+      .project-grid { grid-template-columns: 1fr; }
+      .about-grid { grid-template-columns: 1fr; gap: 28px; }
+      section { padding: 68px 0; }
+    }
+    @media (max-width: 390px) {
+      .container { width: 92%; }
+      h1 { font-size: 2.8rem; }
+      .tab { padding: 9px 11px; font-size: .76rem; }
+      .project-card { padding: 20px; }
+      .nav-contact { padding: 7px 10px; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; transition-duration: .01ms !important; }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav class="container">
+      <a class="brand" href="#home">sumayah<span>.</span></a>
+      <div class="nav-links">
+        <a href="#projects">Projects</a>
+        <a href="#about">About</a>
+        <a class="nav-contact" href="#contact">Let's connect ↗</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="container hero" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow mono"><span class="dot"></span> MATHEMATICS × AI × SOFTWARE</div>
+        <h1><span class="hello">hii,</span><br>I'm Sumayah.</h1>
+        <p class="hero-description">
+          I'm a <strong>final-year Mathematics student at the University of Lagos (UNILAG)</strong>,
+          building at the intersection of mathematical thinking, AI engineering, and software development.
+          <br><br>
+          I love turning complex ideas into useful technology — from intelligent systems to products that solve real problems.
+          I'm also exploring research at the intersection of mathematics and machine learning.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#projects">Explore my work ↘</a>
+          <a class="btn btn-secondary" href="mailto:summydeveloper@gmail.com">Say hello ↗</a>
+        </div>
+      </div>
+
+      <div class="profile-wrap">
+        <div class="orbit"></div>
+        <div class="profile-frame">
+          <img src="profilepic.jpg" alt="Portrait of Sumayah Adegbite"
+               onerror="this.style.display='none';this.parentElement.style.minHeight='300px';this.parentElement.style.background='#191921';">
+        </div>
+        <div class="profile-label">
+          <strong>Sumayah Adegbite</strong>
+          <span>Builder · Math enthusiast</span>
+        </div>
+      </div>
+    </section>
+
+    <div class="container">
+      <div class="info-strip">
+        <div class="info-chip"><span>✳</span> AI / Machine Learning</div>
+        <div class="info-chip"><span>∑</span> Mathematics @ UNILAG</div>
+        <div class="info-chip"><span>⌘</span> Software Engineering</div>
+        <div class="info-chip"><span>↗</span> Research-minded</div>
+      </div>
+    </div>
+
+    <section class="projects-section" id="projects">
+      <div class="container">
+        <div class="project-top">
+          <div>
+            <p class="section-kicker mono">02 / SELECTED WORK</p>
+            <h2 class="section-title">Things I'm building<span class="accent">.</span></h2>
+            <p class="section-description">
+              A growing collection of experiments, products, and ideas I'm bringing to life through code and mathematics.
+            </p>
+          </div>
+          <span class="mono muted">BUILDING IN PUBLIC ↗</span>
+        </div>
+
+        <div class="tabs" role="group" aria-label="Filter projects">
+          <button class="tab active" data-filter="all" aria-pressed="true">All projects</button>
+          <button class="tab" data-filter="ai" aria-pressed="false">AI &amp; Research</button>
+          <button class="tab" data-filter="web" aria-pressed="false">Web</button>
+          <button class="tab" data-filter="mobile" aria-pressed="false">Mobile</button>
+        </div>
+
+        <div class="project-grid" id="project-grid" aria-live="polite">
+          <!-- AI ENGINEERING & RESEARCH -->
+          <article class="project-card" data-category="ai web">
+            <div class="project-meta"><span class="project-number mono">01 / PRODUCT</span><span class="project-type">AI Engineering</span></div>
+            <div class="project-icon">✳</div>
+            <h3>Dropeet</h3>
+            <p>An AI-powered opportunity tracker that turns links to internships, hackathons, grants, and fellowships into structured opportunities with deadlines, helping people keep track of what matters.</p>
+            <div class="tags"><span class="tag">Python</span><span class="tag">LLMs</span><span class="tag">Information Extraction</span></div>
+            <a class="project-link" href="https://app.dropeet.app/" target="_blank" rel="noopener noreferrer">Explore Dropeet ↗</a>
+          </article>
+
+          <article class="project-card" data-category="ai mobile">
+            <div class="project-meta"><span class="project-number mono">02 / EXPLORATION</span><span class="project-type">Edge AI</span></div>
+            <div class="project-icon">◉</div>
+            <h3>Assistive Vision AI</h3>
+            <p>Exploring an offline, Android-based obstacle-detection system to support visually impaired users. The goal is to investigate lightweight vision models, real-time performance, and useful audio or vibration feedback.</p>
+            <div class="tags"><span class="tag">Computer Vision</span><span class="tag">YOLO</span><span class="tag">Android</span><span class="tag">Edge AI</span></div>
+            <span class="project-link">Research &amp; experimentation ↗</span>
+          </article>
+
+          <article class="project-card" data-category="ai">
+            <div class="project-meta"><span class="project-number mono">03 / LANGUAGE AI</span><span class="project-type">AI for Impact</span></div>
+            <div class="project-icon">◌</div>
+            <h3>BANTU / Padii</h3>
+            <p>An African-language voice-assistant initiative exploring more accessible ways for people to interact with technology across languages, including Yoruba, Igbo, and Hausa.</p>
+            <div class="tags"><span class="tag">NLP</span><span class="tag">Voice AI</span><span class="tag">Accessibility</span></div>
+          </article>
+
+          <!-- WEB DEVELOPMENT -->
+          <article class="project-card" data-category="web ai">
+            <div class="project-meta"><span class="project-number mono">04 / WEB PRODUCT</span><span class="project-type">EdTech</span></div>
+            <div class="project-icon">⌘</div>
+            <h3>myLearningBuddy</h3>
+            <p>An AI-powered learning platform designed to make studying more interactive with learning notes, flashcards, step-by-step explanations, and tools that encourage students to understand and explain concepts.</p>
+            <div class="tags"><span class="tag">AI Integration</span><span class="tag">EdTech</span><span class="tag">API Design</span></div>
+          </article>
+
+          <article class="project-card" data-category="web">
+            <div class="project-meta"><span class="project-number mono">05 / WEB PLATFORM</span><span class="project-type">Community</span></div>
+            <div class="project-icon">↗</div>
+            <h3>ECX Job Board</h3>
+            <p>A job-board and applicant-tracking project exploring how recruitment workflows can be organised into a more useful experience for applicants and recruiters.</p>
+            <div class="tags"><span class="tag">Web Development</span><span class="tag">ATS</span><span class="tag">Product Design</span></div>
+          </article>
+
+          <!-- MOBILE DEVELOPMENT -->
+          <article class="project-card" data-category="mobile ai">
+            <div class="project-meta"><span class="project-number mono">06 / MOBILE APP</span><span class="project-type">Flutter</span></div>
+            <div class="project-icon">✳</div>
+            <h3>myLearningBuddy Mobile</h3>
+            <p>A student-focused mobile learning experience built around study sets, notes, flashcards, AI-assisted problem solving, and personalised study workflows.</p>
+            <div class="tags"><span class="tag">Flutter</span><span class="tag">Dart</span><span class="tag">GetX</span><span class="tag">AI APIs</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container">
+        <p class="section-kicker mono">03 / A LITTLE ABOUT ME</p>
+        <h2 class="section-title">Rooted in maths.<br>Curious about what's possible<span class="accent">.</span></h2>
+        <div class="about-grid">
+          <div class="about-copy">
+            <p>My journey starts with <strong>Mathematics at the University of Lagos</strong>. I enjoy the way mathematics helps us reason about complex systems, understand patterns, and approach problems from first principles.</p>
+            <p>That curiosity has led me into AI and machine learning, software engineering, and the challenge of making intelligent systems useful in the real world.</p>
+            <p>Beyond code, I'm passionate about STEM education and expanding access to technology. Through community work and initiatives like The Girls Techie, I care about helping more young people see themselves as builders, too.</p>
+            <p>Long term, I want to keep exploring the relationship between <strong>mathematics, AI research, and human-centred technology</strong>.</p>
+          </div>
+          <div class="focus-card">
+            <h3>What I'm exploring</h3>
+            <div class="focus-item"><span class="focus-symbol">∑</span><div><strong>Mathematical Foundations</strong><span>Linear algebra, modelling, numerical methods, and mathematical thinking.</span></div></div>
+            <div class="focus-item"><span class="focus-symbol">✳</span><div><strong>AI Engineering &amp; Research</strong><span>Machine learning, computer vision, language AI, and intelligent systems.</span></div></div>
+            <div class="focus-item"><span class="focus-symbol">⌘</span><div><strong>Building Products</strong><span>Web, backend, and mobile applications that solve real problems.</span></div></div>
+            <div class="focus-item"><span class="focus-symbol">♡</span><div><strong>STEM &amp; Community</strong><span>Making learning and technology more accessible to young people.</span></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <div class="contact-box">
+          <p class="section-kicker mono">04 / LET'S CONNECT</p>
+          <h2>Have an interesting idea? Let's build something.</h2>
+          <p>Open to meaningful collaborations, AI/ML opportunities, research conversations, and projects at the intersection of mathematics and technology.</p>
+          <div class="social-links">
+            <a class="social-link" href="mailto:summydeveloper@gmail.com">Email ↗</a>
+            <a class="social-link" href="https://linkedin.com/in/sumayah-adegbite" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+            <a class="social-link" href="https://instagram.com/summydevv" target="_blank" rel="noopener noreferrer">Instagram ↗</a>
+          </div>
+          <p class="mono" style="margin-top:25px;font-size:.78rem;">summydeveloper@gmail.com</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <span>© <span id="year"></span> Sumayah Adegbite. Made with curiosity.</span>
+      <span class="mono">MATHEMATICS → AI → IMPACT</span>
+    </div>
+  </footer>
+
+  <script>
+    const tabs = document.querySelectorAll('.tab');
+    const cards = document.querySelectorAll('.project-card');
+    const grid = document.getElementById('project-grid');
+
+    function filterProjects(category) {
+      let visibleCount = 0;
+
+      cards.forEach(card => {
+        const categories = card.dataset.category.split(' ');
+        const visible = category === 'all' || categories.includes(category);
+        card.hidden = !visible;
+
+        if (visible) {
+          visibleCount++;
+          card.style.animation = 'none';
+          void card.offsetWidth;
+          card.style.animation = '';
+        }
+      });
+
+      let empty = document.getElementById('empty-state');
+      if (!visibleCount) {
+        if (!empty) {
+          empty = document.createElement('p');
+          empty.id = 'empty-state';
+          empty.className = 'empty-state';
+          empty.textContent = 'More projects coming soon. Stay curious!';
+          grid.appendChild(empty);
+        }
+      } else if (empty) {
+        empty.remove();
+      }
+    }
+
+    tabs.forEach(tab => {
+      tab.addEventListener('click', () => {
+        tabs.forEach(item => {
+          item.classList.remove('active');
+          item.setAttribute('aria-pressed', 'false');
+        });
+        tab.classList.add('active');
+        tab.setAttribute('aria-pressed', 'true');
+        filterProjects(tab.dataset.filter);
+      });
+    });
+
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
